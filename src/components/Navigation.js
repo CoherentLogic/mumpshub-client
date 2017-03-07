@@ -18,7 +18,7 @@ export default class Navigation extends React.Component {
         const { activeItem } = this.state;
 
         return(
-            <Menu stackable inverted>
+            <Menu>
                 <Menu.Item
                     as={Link}
                     to="home"

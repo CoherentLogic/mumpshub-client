@@ -9,7 +9,14 @@ export default class Home extends React.Component {
 
     render() {
         return(
-            <div>foo</div>
+            <div className='ui vertical masthead center aligned segment'>
+                <div className='ui text container'>
+                <Header as='h1'>
+                    We are the bees knees
+                </Header>
+                </div>
+                
+            </div>
         );
     }
     
