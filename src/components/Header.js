@@ -1,5 +1,6 @@
 import React from 'react';
-import { Jumbotron } from 'react-bootstrap';
+import Navigation from './Navigation';
+
 
 export default class Header extends React.Component {
     constructor(props) {
@@ -8,9 +9,9 @@ export default class Header extends React.Component {
 
     render() {
         return(
-            <Jumbotron>
-                <img src="assets/MUMPSHub.png" alt="MUMPSHub Logo"  />
-            </Jumbotron>
+            <div>
+                <Navigation />            
+            </div>
         );
     }
 }
