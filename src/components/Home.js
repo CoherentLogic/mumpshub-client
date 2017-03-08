@@ -12,7 +12,7 @@ export default class Home extends React.Component {
             <div className='ui vertical masthead center aligned segment'>
                 <div className='ui text container'>
                 <Header as='h1'>
-                    We are the bees knees
+                    asdfasdfasdfasdf
                 </Header>
                 </div>
                 
